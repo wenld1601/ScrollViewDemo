@@ -22,7 +22,14 @@
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="l4y-81-uzj"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Dh3-Ls-Woo"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="LXd-ZF-Eha"/>
+                                </connections>
                             </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="zYX-Jl-BRl">
+                                <rect key="frame" x="187" y="300" width="39" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
